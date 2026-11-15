@@ -1,26 +1,28 @@
-# Dependency Trail
+<p align="center"><img src="assets/banner.svg" alt="dependency-trail animated banner" width="100%"></p>
+
+# 🧭 Dependency Trail
 
 A small command-line tool for exploring dependency relationships in Python projects.
 
-## What it does
+## ✨ What it does
 
 - Reads dependency declarations from a project's `pyproject.toml`.
 - Prints a clean, deterministic dependency report.
 - Can export the discovered direct dependencies as JSON.
 - Uses Python's standard library only.
 
-## Quick start
+## 🚀 Quick start
 
 ```bash
 python dependency_trail.py pyproject.toml
 python dependency_trail.py pyproject.toml --json
 ```
 
-## Scope
+## 🎯 Scope
 
 The first version focuses on direct dependencies declared in the project metadata. It does not install packages, execute project code, or claim to resolve the complete transitive environment.
 
-## Development
+## 📌 Development
 
 Run the built-in tests with:
 
@@ -28,6 +30,6 @@ Run the built-in tests with:
 python -m unittest -v
 ```
 
-## License
+## 📄 License
 
 MIT
